@@ -1,7 +1,8 @@
 apt update -y 
 apt install wget -y 
 apt install curl -y 
-apt-get install software-properties-common 
+apt-get install software-properties-common -y
+apt upgrade -y
 apt update -y 
 apt install  python3 pip -y 
 apt update -y 
