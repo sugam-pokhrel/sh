@@ -6,7 +6,7 @@ apt upgrade -y
 apt update -y 
 apt install  python3 pip -y 
 apt update -y 
-apt-get install -y gnupg2 gnupg gnupg1   
+apt-get install gnupg2 gnupg gnupg1   -y
 apt update -y &&  apt-get install xvfb -y 
 apt-get install xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic -y 
 apt update -y 
