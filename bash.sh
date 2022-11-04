@@ -19,4 +19,4 @@ apt-add-repository "deb http://ppa.launchpad.net/ubuntu-mozilla-security/ppa/ubu
 apt update -y 
 apt install firefox -y 
 curl -sSL https://github.com/mozilla/geckodriver/releases/download/v0.32.0/geckodriver-v0.32.0-linux64.tar.gz | tar -xvz && chmod +x geckodriver 
-mv geckodriver /usr/local/bin/   
+export DISPLAY=:1    &&  mv geckodriver /usr/local/bin/   
